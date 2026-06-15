@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+/* Supplied Special Cakes styles plus page layout styles */
+
+/* Student: Kirk */
+
+body {
+    font-size: 1em;
+    line-height: 1.3em;
+    margin: 0;
+    background-color: #fff7f4;
+    color: #0C243C;
+}
+
+.burntred {
+    color: #E94D40;
+}
+
+.navyblue {
+    color: #0C243C;
+}
+
+.specialcakesfont {
+    font-family: Arial, sans-serif;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 18px 20px 0 20px;
+}
+
+.logo {
+    max-width: 280px;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+nav {
+    background-color: #0C243C;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 18px;
+    display: inline-block;
+}
+
+nav a:hover,
+nav a.current {
+    background-color: #E94D40;
+}
+
+main {
+    padding: 25px;
+}
+
+h1 {
+    color: #E94D40;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: #0C243C;
+    margin-top: 26px;
+}
+
+.hero-image,
+.about-image {
+    width: 100%;
+    max-width: 975px;
+    height: auto;
+    border: 4px solid #E94D40;
+    box-sizing: border-box;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    background-color: #fffdfc;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #0C243C;
+}
+
+.product-card h2 {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0;
+}
+
+th {
+    background-color: #0C243C;
+    color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #0C243C;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    max-width: 650px;
+    background-color: #fff7f4;
+    padding: 18px;
+    border: 1px solid #E94D40;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+button,
+input[type="submit"] {
+    background-color: #E94D40;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    width: auto;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0C243C;
+}
+
+footer {
+    background-color: #0C243C;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}

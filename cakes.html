@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Cakes for All Occasions - Cakes for Sale</title>
+    <link rel="stylesheet" href="css/specialcakesstyles.css">
+</head>
+<body class="specialcakesfont">
+    <!-- Student: Kirk -->
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Special Cakes for All Occasions logo" class="logo"></a>
+            <img src="images/cakeBanner1200.jpg" alt="Display of cakes in a bakery" class="banner">
+        </header>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="cakes.html" class="current">Cakes for Sale</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <main>
+            <h1>Cakes for Sale</h1>
+            <p>We make cakes and sweets for birthdays, office events and other special occasions.</p>
+
+            <section class="product-grid">
+                <article class="product-card">
+                    <h2>Speciality cakes</h2>
+                    <a href="images/large/specialOccasion900.jpg">
+                        <img src="images/small/specialOccasion300.jpg" alt="A decorated speciality cake">
+                    </a>
+                    <p>Click the image to view a larger version.</p>
+                    <p><strong>Allergy statement:</strong> Can be made to match dietary requirements</p>
+                </article>
+                <article class="product-card">
+                    <h2>Flavoured cakes</h2>
+                    <a href="images/large/lemonCake900.jpg">
+                        <img src="images/small/lemonCake300.jpg" alt="A lemon flavoured cake">
+                    </a>
+                    <p>Click the image to view a larger version.</p>
+                    <p><strong>Allergy statement:</strong> Contains gluten, dairy, nuts and eggs. Strawberry cakes contain strawberries.</p>
+                </article>
+                <article class="product-card">
+                    <h2>Cheesecakes</h2>
+                    <a href="images/large/cheeseCake640.jpg">
+                        <img src="images/small/cheeseCake300.jpg" alt="A cheesecake">
+                    </a>
+                    <p>Click the image to view a larger version.</p>
+                    <p><strong>Allergy statement:</strong> Contains gluten and dairy</p>
+                </article>
+                <article class="product-card">
+                    <h2>Brownies</h2>
+                    <a href="images/large/brownie640.jpg">
+                        <img src="images/small/brownie300.jpg" alt="Chocolate brownies">
+                    </a>
+                    <p>Click the image to view a larger version.</p>
+                    <p><strong>Allergy statement:</strong> Contains dairy, nuts and eggs</p>
+                </article>
+                <article class="product-card">
+                    <h2>Cupcakes</h2>
+                    <a href="images/large/cupcake640.jpg">
+                        <img src="images/small/cupcake300.jpg" alt="Cupcakes with icing">
+                    </a>
+                    <p>Click the image to view a larger version.</p>
+                    <p><strong>Allergy statement:</strong> Contains gluten, dairy, nuts and eggs</p>
+                </article>
+                <article class="product-card">
+                    <h2>Macarons</h2>
+                    <a href="images/large/macaron640.jpg">
+                        <img src="images/small/macaron300.jpg" alt="Colourful macarons">
+                    </a>
+                    <p>Click the image to view a larger version.</p>
+                    <p><strong>Allergy statement:</strong> Contains gluten, dairy, nuts and eggs</p>
+                </article>
+            </section>
+
+            <h2>Prices</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cake Size</th>
+                        <th>Suitable for</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Small</td>
+                        <td>8-10 people</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>10-12 people</td>
+                        <td>$60.00</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>16-20 people</td>
+                        <td>$100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>How to order</h2>
+            <p>If you’re interested in ordering a cake for your special occasion, let us know!</p>
+
+            <form action="mailto:specialcakes@email.com" method="post" enctype="text/plain">
+                <label for="order-name">Name</label>
+                <input type="text" id="order-name" name="name" required>
+
+                <label for="order-email">Email address</label>
+                <input type="email" id="order-email" name="email" required>
+
+                <label for="order-phone">Phone number</label>
+                <input type="tel" id="order-phone" name="phone" required>
+
+                <label for="cake-type">The type of cake required</label>
+                <select id="cake-type" name="cake-type" required>
+                    <option value="">Please select</option>
+                    <option value="Speciality cakes">Speciality cakes</option>
+                    <option value="Flavoured cakes">Flavoured cakes</option>
+                    <option value="Cheesecakes">Cheesecakes</option>
+                    <option value="Brownies">Brownies</option>
+                    <option value="Cupcakes">Cupcakes</option>
+                    <option value="Macarons">Macarons</option>
+                </select>
+
+                <label for="date-required">Date required</label>
+                <input type="date" id="date-required" name="date-required" required>
+
+                <input type="submit" value="Send enquiry">
+            </form>
+
+        </main>
+        <footer>
+            <p>&copy; 2026 Kirk</p>
+        </footer>
+    </div>
+</body>
+</html>
